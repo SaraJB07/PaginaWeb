@@ -1,49 +1,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Noto+Sans+JP:wght@100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 *{
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: "Noto Sans JP", sans-serif;
-    font-size: 20px;
+    font-family: 'Dancing Script';
+    box-sizing: content-box;
 }
-.Logo{
-    margin: 10px auto 0px;
-    display: block;
-}
-
-body {
-    background-color: white;
-}
-
-.header{
-    background-color: antiquewhite;
+header {
+    background: #4c2b08;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center;
-    height: 85px;
-    padding: 5px 10%;
-
 }
 
-.header.Logo{
-    cursor: pointer;
+.menu-izquierda, .menu-derecha {
+    flex: 1;
+    display: flex;
+    gap: 20px;
+    font-size: 30px;
 }
 
-.header.Logo img{
-    height: 70px;
-    width: auto;
-    transition: all 0.3s;
+.menu-izquierda{
+    justify-content: flex-start;
 }
 
-.header.Logo img:hover{
-    transform: scale(1.2);
+.menu-derecha{
+    justify-content: flex-end;
 }
 
+.Logo{
+    flex: 0 1 auto;
+    text-align: center;
+}
 
+.Logo img{
+    max-width: 150px;
+    height: auto;
+}
+.link-menu{
+    text-decoration: none;
+    color: #d7bda6;
+    padding: 70px;
+    transition: color 0.3s ease;
+}
 
-
-.header .Logo img{
-    height: 70px;
-    width: auto;
+.link-menu:hover {
+    color: white;
 }
