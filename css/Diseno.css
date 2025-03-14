@@ -49,3 +49,54 @@ header {
 .link-menu:hover {
     color: white;
 }
+
+
+.quienes-somos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #f8f9fa; /* Color de fondo suave */
+}
+
+.contenido {
+    width: 50%;
+    padding-right: 20px;
+}
+
+.contenido h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+
+
+.imagen {
+    width: 50%;
+}
+
+.imagen img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+    .quienes-somos {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contenido, .imagen {
+        width: 100%;
+    }
+
+    .contenido {
+        padding-right: 0;
+        margin-bottom: 20px;
+    }
+}
+
