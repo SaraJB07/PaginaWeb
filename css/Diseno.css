@@ -90,7 +90,20 @@ header {
 }
 
 .slogan {
-    
+    background-color: #bc9060;
+    top: 20%;
+    position: absolute;
+    display: flex;
+    width: 50%;
+    padding-right: 20px;
+    height: 250px;
+}
+
+.imagen-slogan img {
+    width: 100%;
+    height: auto;
+
+
 }
 
 @media (max-width: 768px) {
