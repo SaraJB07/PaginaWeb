@@ -31,7 +31,7 @@ header {
 }
 
 .menu-derecha{
-    justify-content: flex-end;
+    justify-content: flex-start;
 }
 
 .Logo{
@@ -88,7 +88,7 @@ header {
 }
 
 .caja {
-    border: 3px solid  #b4793a;
+    border: 5px solid  #b4793a;
     width: 50vw;
     height: 16vh;
     position: relative;
@@ -103,7 +103,40 @@ header {
     font-size: 80px;
     position: absolute;
     width: 100%;
-    color: rgb(146, 93, 20);
+    color: #552e10;
+    text-shadow: 4px 4px 8px rgb(157, 119, 78);
+
+}
+
+
+.cajaIndividual {
+    border: 5px solid  #b4793a;
+    width: 20vw;
+    height: 50vh;
+    position: absolute;
+    top: 800px;
+    z-index: 0;
+}
+
+.cajaIndividual .bebida img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    position: absolute;
+    top: -50px; 
+    left: 50%;
+    transform: translateX(-50%);
+    background: white;
+}
+
+.cajaIndividual .bebida .titulo{
+    top: 100px;
+    position: absolute;
+    margin: none;
+    font-size: 16px;
+
 }
 
 
