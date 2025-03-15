@@ -57,7 +57,7 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 50px;
-    background-color: #f7d196; /* Color de fondo suave */
+    background-color: #f8e5c9; 
 }
 
 .contenido {
@@ -85,11 +85,27 @@ header {
 .imagen img {
     width: 100%;
     height: auto;
-    border-radius: 10px; /* Bordes redondeados */
+    border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Responsivo */
+.slogan {
+    background-color: #bc9060;
+    top: 20%;
+    position: absolute;
+    display: flex;
+    width: 50%;
+    padding-right: 20px;
+    height: 250px;
+}
+
+.imagen-slogan img {
+    width: 100%;
+    height: auto;
+
+
+}
+
 @media (max-width: 768px) {
     .quienes-somos {
         flex-direction: column;
@@ -105,4 +121,6 @@ header {
         margin-bottom: 20px;
     }
 }
+
+
 
