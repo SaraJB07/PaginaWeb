@@ -3,9 +3,9 @@
 *{
     margin: 0;
     padding: 0;
-    
     box-sizing: content-box;
 }
+
 header {
     background: #4c2b08;
     padding: 0px;
@@ -89,20 +89,5 @@ header {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Responsivo */
-@media (max-width: 768px) {
-    .quienes-somos {
-        flex-direction: column;
-        text-align: center;
-    }
 
-    .contenido, .imagen {
-        width: 100%;
-    }
-
-    .contenido {
-        padding-right: 0;
-        margin-bottom: 20px;
-    }
-}
 
