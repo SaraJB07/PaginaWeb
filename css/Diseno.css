@@ -3,9 +3,9 @@
 *{
     margin: 0;
     padding: 0;
-    
     box-sizing: content-box;
 }
+
 header {
     background: #4c2b08;
     padding: 0px;
@@ -112,15 +112,4 @@ header {
         text-align: center;
     }
 
-    .contenido, .imagen {
-        width: 100%;
-    }
-
-    .contenido {
-        padding-right: 0;
-        margin-bottom: 20px;
-    }
 }
-
-
-
