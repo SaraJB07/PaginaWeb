@@ -54,6 +54,9 @@ header {
     color: white;
 }
 
+
+
+
 .Fondo1 .Imagen-fondo{
     position: absolute;
     top: 150px;
@@ -109,34 +112,86 @@ header {
 }
 
 
-.cajaIndividual {
-    border: 5px solid  #b4793a;
-    width: 20vw;
-    height: 50vh;
-    position: absolute;
-    top: 800px;
-    z-index: 0;
+.cajasBebidas {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 20px ; 
+    row-gap: 70px; 
+    padding: 20px;
 }
 
+
+.cajaIndividual {
+    border: 5px solid  #eacfb3;
+    border-radius: 10%;
+    background: #eacfb3;
+    margin: 15px;
+    width: 20vw;
+    height: 50vh;
+    position: relative;
+    top: 550px;
+    z-index: 0;
+    transition: background-color 0.4s ease-in-out;
+    box-shadow: 5px 7px 8px #552e10;
+ 
+}
+
+.cajaIndividual:hover {
+    background-color: #b3987b; 
+}
+
+
+
+
 .cajaIndividual .bebida img{
-    width: 100px;
-    height: 100px;
+    width: 220px;
+    height: 220px;
     object-fit: cover;
-    border-radius: 50%;
-    border: 3px solid #fff;
     position: absolute;
-    top: -50px; 
+    top: -110px; 
     left: 50%;
     transform: translateX(-50%);
-    background: white;
 }
 
 .cajaIndividual .bebida .titulo{
-    top: 100px;
+    top: 90px;
     position: absolute;
+    left: 12%;
     margin: none;
-    font-size: 16px;
+    font-size: 30px;
 
 }
+
+.cajaIndividual .bebida .parrafo{
+    top: 100px;
+    position: absolute;
+    
+    top: 40%;
+    left: 5%;
+    margin: 2px;
+    font-size: 18px;
+}
+
+.cajaIndividual .bebida .cajaprecio{
+    border: 3px solid  #83603b;
+    border-radius: 8px;
+    width: 8vw;
+    height: 5vh;
+    position: absolute;
+    top: 80%;
+    left: 25%;
+    z-index: 1;
+}  
+
+.cajaIndividual .bebida .cajaprecio .precio{
+    display: grid;
+    place-items: center; 
+    margin: 0px;
+    font-size: 30px;
+
+}
+
+
 
 
