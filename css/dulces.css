@@ -5,7 +5,6 @@
 *{
     margin: 0;
     padding: 0;
-    
     box-sizing: content-box;
 }
 header {
@@ -58,7 +57,7 @@ header {
     position: absolute;
     top: 150px;
     left: 0px;
-    width: auto;
+    width: 100%;
     height: auto;
     z-index: 0;
     background-color: rgb(243, 231, 169);
@@ -70,11 +69,11 @@ header {
  
 }
 
-.Fondo1 .texto{
+.Fondo1 .texto1{
     font-family: "MonteCarlo", cursive;
-    font-size: 120px;
-    position: absolute;
-    top: 210px;
+    font-size: 80px;
+    position: relative;
+    top: 15px;
     left: 0px;
     width: 100vw;
     height: 100vh;
@@ -85,3 +84,187 @@ header {
 .Fondo1 .texto .titulo{
     text-shadow: 4px 4px 1px rgb(0, 0, 0);
 }
+.caja0 {
+    width: 234px;                /* Ancho de la caja */
+    height: 400px;               /* Alto de la caja (aumentado para que quepa todo el contenido) */
+    border-radius: 20px;         /* Bordes redondeados */
+    margin: 20px;           /* Centramos la caja */
+    box-sizing: border-box;      /* Incluye el borde y el padding en el tamaño total de la caja */
+    display: flex;
+    flex-direction: column;      /* Alineamos los elementos dentro de la caja en una columna */
+    padding-left: 20px;
+    position: absolute;
+    top: 650px;
+}
+
+
+.caja0 .titulo {
+    width: 600px;
+    height: 100px;
+    border: 5px solid #b37949;
+    font-family: "DM Serif Text", serif;
+    font-size: 60px;
+    color: #552e10;
+    text-shadow: 4px 4px 8px rgb(157, 119, 78);
+    position: absolute;
+    top: -80px;
+    left: 450px;
+    white-space: nowrap; /* Esto evitará que el texto se divida en varias líneas */
+}
+.contenedor-cajas {
+    display: flex;
+    justify-content: space-around;
+    margin-top: -130px;
+    gap: 20px;
+}
+
+.caja1, .caja2, .caja3, .caja4 {
+    width: 200px;
+    height: 450px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #f9f1e3;
+    position: relative;
+}
+
+.caja1 img, .caja2 img, .caja3 img, .caja4 img {
+    width: 100%;
+    height: auto;
+    border-bottom: 5px solid #b37949;
+}
+
+.caja1 .contenido1, .caja2 .contenido2, .caja3 .contenido3, .caja4 .contenido4 {
+    padding: 20px;
+}
+
+.caja1 .contenido1 h2, .caja2 .contenido2 h2, .caja3 .contenido3 h2,.caja4 .contenido4 h2 {
+    font-family: "DM Serif Text", serif;
+    font-size: 24px;
+    color: #4c2b08;
+}
+
+.caja1 .contenido1 p, .caja2 .contenido2 p, .caja3 .contenido3 p,.caja4 .contenido4 p {
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 16px;
+    color: #7e6f4f;
+}
+
+.contenedor-cajas2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+    gap: 20px;
+
+}
+.caja5, .caja6, .caja7, .caja8 {
+    width: 200px;
+    height: 450px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #f9f1e3;
+    position: relative;
+}
+
+.caja5 img, .caja6 img, .caja7 img, .caja8 img {
+    width: 100%;
+    height: auto;
+    border-bottom: 5px solid #b37949;
+}
+
+.caja5 .contenido5, .caja6 .contenido6, .caja7 .contenido7, .caja8 .contenido8 {
+    padding: 20px;
+}
+
+.caja5 .contenido5 h2, .caja6 .contenido6 h2, .caja7 .contenido7 h2,.caja8 .contenido8 h2 {
+    font-family: "DM Serif Text", serif;
+    font-size: 24px;
+    color: #4c2b08;
+}
+
+.caja5 .contenido5 p, .caja6 .contenido6 p, .caja7 .contenido7 p,.caja8 .contenido8 p {
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 16px;
+    color: #7e6f4f;
+}
+
+.Texto2 .titulo {
+    width: 600px;
+    height: 100px;
+    border: 5px solid #b37949;
+    font-family: "DM Serif Text", serif;
+    font-size: 60px;
+    color: #552e10;
+    text-shadow: 4px 4px 8px rgb(157, 119, 78);
+    position: absolute;
+    top: -80px;
+    left: 500px;
+    white-space: nowrap; /* Esto evitará que el texto se divida en varias líneas */
+}
+.Texto2 .titulo {
+    width: 600px;
+    height: 100px;
+    border: 5px solid #b37949;
+    font-family: "DM Serif Text", serif;
+    font-size: 60px;
+    color: #552e10;
+    text-shadow: 4px 4px 8px rgb(157, 119, 78);
+    position: absolute;
+    top: 1850px;
+    left: 450px;
+    white-space: nowrap; /* Esto evitará que el texto se divida en varias líneas */
+}
+
+.caja-dulces1 img {
+    width: 20%;
+    height: auto;
+    border-bottom: 5px solid #b37949;
+    position: absolute;
+    top: 2050px;
+    left: 90px; 
+}
+.caja-dulces1 .contenido1 h2 {
+    font-family: "DM Serif Text", serif;
+    font-size: 24px;
+    color: #4c2b08;
+    position: absolute;
+    top: 2060px;
+    left: 470px;
+}
+
+.caja-dulces1 .contenido1 p {
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 16px;
+    color: #7e6f4f;
+    position: absolute;
+    top: 2110px;
+    left: 470px;
+}
+
+/* Estilos para el botón de precio */
+.precio {
+    text-align: center; /* Centrar el botón */
+    margin-top: 20px; /* Espacio superior */
+}
+
+.boton {
+    background-color: #b37949; /* Color de fondo */
+    color: white; /* Color del texto */
+    font-family: "DM Serif Text", serif;
+    font-size: 20px;
+    padding: 10px 20px; /* Espaciado del texto dentro del botón */
+    border-radius: 10px; /* Bordes redondeados */
+    border: none; /* Sin borde */
+    cursor: pointer; /* Cambia el cursor cuando se pasa sobre el botón */
+    transition: background-color 0.3s ease; /* Efecto al pasar el mouse */
+    position: absolute;
+    top: 2340px;
+    left: 480px; ;
+}
+
+.boton {
+    background-color: #552e10; /* Color cuando el mouse pasa sobre el botón */
+}
+
+
