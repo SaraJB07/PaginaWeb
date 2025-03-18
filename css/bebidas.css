@@ -100,6 +100,15 @@ header {
     margin: auto
 }
 
+.cajaFrias {
+    border: 5px solid  #b4793a;
+    width: 50vw;
+    height: 16vh;
+    position: relative;
+    top: 600px;
+    margin: auto
+}
+
 
 
 .titulo2 .titulo{
@@ -200,6 +209,17 @@ header {
     font-size: 30px;
 
 }
+
+
+
+
+
+
+
+
+
+
+
 
 .Fondo2 .Imagen-fondo img{
     margin-top: 600px;
