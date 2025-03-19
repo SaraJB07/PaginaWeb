@@ -4,6 +4,8 @@
     margin: 0;
     padding: 0;
     box-sizing: content-box;
+    font-family: 'Dancing Script';
+
 }
 
 header {
@@ -49,4 +51,86 @@ header {
 
 .link-menu:hover {
     color: white;
+}
+
+
+@media (max-width: 768px) {
+    .quienes-somos {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contenido, .imagen {
+        width: 100%;
+    }
+
+    .contenido {
+        padding-right: 0;
+        margin-bottom: 20px;
+    }
+}
+
+
+.contacto {
+    margin: 2rem 0;
+    border-left: 4px solid #6B4423;
+    padding-left: 1.5rem;
+}
+
+.subtitulo {
+    font-size: 1.25rem;
+    color: var(--color-titulo);
+    margin-bottom: 0.75rem;
+}
+
+.telefono a {
+    font-size: 1.5rem;
+    color: #6B4423;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.telefono a:hover {
+    color: #4D3018;
+    text-decoration: underline;
+}
+
+.eventos {
+    background-color: rgba(107, 68, 35, 0.1);
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-top: 1.5rem;
+}
+
+.descripcion-evento {
+    font-size: 1rem;
+    color: #664422;
+    margin-bottom: 1rem;
+}
+
+.boton-evento {
+    display: inline-block;
+    background-color: #6B4423;
+    color: white !important;
+    padding: 0.8rem 1.5rem;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: transform 0.2s ease, background-color 0.3s;
+}
+
+.boton-evento:hover {
+    background-color: #543519;
+    transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+    .telefono a {
+        font-size: 1.25rem;
+    }
+    
+    .boton-evento {
+        width: 100%;
+        text-align: center;
+    }
 }
