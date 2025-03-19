@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Noto+Sans+JP:wght@100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Lobster&family=Playwrite+HU:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Great+Vibes&family=Lobster&family=MonteCarlo&family=Playwrite+HU:wght@100..400&display=swap');
 
-* {
+*{
     margin: 0;
     padding: 0;
+    
     box-sizing: content-box;
 }
-
 header {
     background: #4c2b08;
     padding: 0px;
@@ -14,6 +16,7 @@ header {
     font-family: 'Dancing Script';
     justify-content:space-between;
     align-items: center;
+    
 }
 
 .menu-izquierda, .menu-derecha {
@@ -28,7 +31,7 @@ header {
 }
 
 .menu-derecha{
-    justify-content: flex-end;
+    justify-content: flex-start;
 }
 
 .Logo{
@@ -49,4 +52,41 @@ header {
 
 .link-menu:hover {
     color: white;
+}
+
+
+
+
+.Fondo1 .Imagen-fondo{
+    position: absolute;
+    top: 150px;
+    left: 0px;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    background-color: rgb(243, 231, 169);
+}
+
+.Fondo1 .Imagen-fondo img{
+    width: 100%;
+    opacity: 0.8;
+ 
+}
+
+.Fondo1 .texto{
+    /*font-family: "DM Serif Text", serif;*/
+    font-family: "MonteCarlo", cursive;
+    font-size: 120px;
+    position: absolute;
+    top: 210px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    z-index: 0.5;
+    color: antiquewhite;
+    text-align: center;
+}
+
+.Fondo1 .texto .titulo{
+    text-shadow: 4px 4px 1px rgb(0, 0, 0);
 }
