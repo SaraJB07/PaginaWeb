@@ -137,38 +137,3 @@ header {
         text-align: center;
     }
 }
-
-
-.Fondo1 .Imagen-fondo{
-    position: absolute;
-    top: 150px;
-    left: 0px;
-    width: auto;
-    height: auto;
-    z-index: 0;
-    background-color: rgb(243, 231, 169);
-}
-
-.Fondo1 .Imagen-fondo img{
-    width: 100%;
-    opacity: 0.8;
- 
-}
-
-.Fondo1 .texto{
-    /*font-family: "DM Serif Text", serif;*/
-    font-family: "MonteCarlo", cursive;
-    font-size: 120px;
-    position: absolute;
-    top: 210px;
-    left: 0px;
-    width: 100vw;
-    height: 100vh;
-    z-index: 0.5;
-    color: antiquewhite;
-    text-align: center;
-}
-
-.Fondo1 .texto .titulo{
-    text-shadow: 4px 4px 1px rgb(0, 0, 0);
-}
