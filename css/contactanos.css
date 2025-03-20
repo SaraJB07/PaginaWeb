@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Noto+Sans+JP:wght@100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Lobster&family=Playwrite+HU:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Great+Vibes&family=Lobster&family=MonteCarlo&family=Playwrite+HU:wght@100..400&display=swap');
 
-* {
+*{
     margin: 0;
     padding: 0;
+    
     box-sizing: content-box;
-}
+    font-family: 'Dancing Script';
 
+}
 header {
     background: #4c2b08;
     padding: 0px;
@@ -14,6 +18,7 @@ header {
     font-family: 'Dancing Script';
     justify-content:space-between;
     align-items: center;
+    
 }
 
 .menu-izquierda, .menu-derecha {
@@ -28,7 +33,7 @@ header {
 }
 
 .menu-derecha{
-    justify-content: flex-end;
+    justify-content: flex-start;
 }
 
 .Logo{
@@ -49,4 +54,103 @@ header {
 
 .link-menu:hover {
     color: white;
+}
+
+
+@media (max-width: 768px) {
+    .quienes-somos {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contenido, .imagen {
+        width: 100%;
+    }
+
+<<<<<<< HEAD
+.Fondo1 .Imagen-fondo{
+    position: absolute;
+    top: 150px;
+    left: 0px;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    background-color: rgb(124, 99, 42);
+}
+
+.Fondo1 .Imagen-fondo img{
+    width: 100%;
+    opacity: 0.7;
+ 
+=======
+    .contenido {
+        padding-right: 0;
+        margin-bottom: 20px;
+    }
+}
+
+
+.contacto {
+    margin: 2rem 0;
+    border-left: 4px solid #6B4423;
+    padding-left: 1.5rem;
+>>>>>>> 9d08f11510836afdb444ec1a6579c27e39bb3b22
+}
+
+.subtitulo {
+    font-size: 1.25rem;
+    color: var(--color-titulo);
+    margin-bottom: 0.75rem;
+}
+
+.telefono a {
+    font-size: 1.5rem;
+    color: #6B4423;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.telefono a:hover {
+    color: #4D3018;
+    text-decoration: underline;
+}
+
+.eventos {
+    background-color: rgba(107, 68, 35, 0.1);
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-top: 1.5rem;
+}
+
+.descripcion-evento {
+    font-size: 1rem;
+    color: #664422;
+    margin-bottom: 1rem;
+}
+
+.boton-evento {
+    display: inline-block;
+    background-color: #6B4423;
+    color: white !important;
+    padding: 0.8rem 1.5rem;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: transform 0.2s ease, background-color 0.3s;
+}
+
+.boton-evento:hover {
+    background-color: #543519;
+    transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+    .telefono a {
+        font-size: 1.25rem;
+    }
+    
+    .boton-evento {
+        width: 100%;
+        text-align: center;
+    }
 }

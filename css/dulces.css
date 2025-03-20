@@ -420,14 +420,14 @@ header {
 
 
 .Fondo2 {
-    position: relative;
+    position: absolute;
     width: 100%;  
 }
 
 
 .Fondo2 .Imagen-fondo img{
     margin-top: 600px;
-    position: relative;
+    position: absolute;
     width: 100vh;
     height: auto;
     z-index: 0;
@@ -436,6 +436,7 @@ header {
 }
 
 .Fondo2 .Imagen-fondo img{
+    
     width: 100%;
     opacity: 0.5;
  
@@ -444,7 +445,7 @@ header {
 
 .Fondo2 .logo img{
     position: absolute;
-    bottom: 160px; 
+    top: 800px;
     left: 20px; 
     width: 210px; 
     height: auto;
@@ -459,7 +460,7 @@ header {
     width: 20vw;
     height: 14vh;
     position: absolute;
-    top: 85%;
+    top: 650px;
     left: 10px;
     z-index: 1;
 }
@@ -478,7 +479,7 @@ header {
     width: 20vw;
     height: 14vh;
     position: absolute;
-    top: 70%;
+    top: 700px;
     left: 30%;
     z-index: 1;
 }
@@ -522,7 +523,7 @@ header {
     width: 20vw;
     height: 14vh;
     position: absolute;
-    top: 70%;
+    top: 700px;
     left: 50%;
     z-index: 1;
 }
