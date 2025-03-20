@@ -5,10 +5,7 @@
 *{
     margin: 0;
     padding: 0;
-    
     box-sizing: content-box;
-    font-family: 'Dancing Script';
-
 }
 header {
     background: #4c2b08;
@@ -33,7 +30,7 @@ header {
 }
 
 .menu-derecha{
-    justify-content: flex-start;
+    justify-content: flex-end;
 }
 
 .Logo{
@@ -56,46 +53,54 @@ header {
     color: white;
 }
 
-
-@media (max-width: 768px) {
-    .quienes-somos {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .contenido, .imagen {
-        width: 100%;
-    }
-
-<<<<<<< HEAD
 .Fondo1 .Imagen-fondo{
     position: absolute;
     top: 150px;
     left: 0px;
-    width: auto;
+    width: 100%;
     height: auto;
     z-index: 0;
-    background-color: rgb(124, 99, 42);
+    background-color: rgb(105, 77, 36);
+    
 }
 
 .Fondo1 .Imagen-fondo img{
     width: 100%;
-    opacity: 0.7;
+    opacity: 0.6;
  
-=======
-    .contenido {
-        padding-right: 0;
-        margin-bottom: 20px;
-    }
+}
+
+.Fondo1 .texto{
+    font-family: "MonteCarlo", cursive;
+    font-size: 120px;
+    position: absolute;
+    top: 210px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    z-index: 0.5;
+    color: antiquewhite;
+    text-align: center;
+}
+
+.Fondo1 .texto .titulo{
+    text-shadow: 4px 4px 1px rgb(0, 0, 0);
 }
 
 
-.contacto {
-    margin: 2rem 0;
-    border-left: 4px solid #6B4423;
-    padding-left: 1.5rem;
->>>>>>> 9d08f11510836afdb444ec1a6579c27e39bb3b22
+.quienes-somos .imagen {
+    margin: 365px 0px 80px 0px;
 }
+
+.quienes-somos .texto {
+    font-size: 1.25rem;
+    color: var(--color-titulo);
+    margin-bottom: 0.75rem;
+}
+
+
+
+
 
 .subtitulo {
     font-size: 1.25rem;
